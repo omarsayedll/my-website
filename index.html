@@ -5,9 +5,31 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my-website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
   </head>
   <body class="font-serif">
-    
+        <nav class="flex justify-between items-center px-5 md:px-10 pt-4 pb-5.5 md:pb-18 rounded-3xl shadow-md sm:rounded-none md:shadow-none font-sans">
+      <a class="text-[30px]/[120%] tracking-[-8%] " href="/index.html">Area</a>
+      <ul class="hidden md:flex gap-x-6.75 mt-2.5 px-6 py-5">
+        <li><a class="text-[14px]/[140%] tracking-[-2.5%] font-bold" href="#">Benefits</a></li>
+        <li><a class="text-[14px]/[140%] tracking-[-2.5%] font-bold" href="#">Specifications</a></li>
+        <li><a class="text-[14px]/[140%] tracking-[-2.5%] font-bold" href="#">How-to</a></li>
+        <li><a class="text-[14px]/[140%] tracking-[-2.5%] font-bold" href="#">Contact Us</a></li>
+      </ul>
+      <div class="hidden md:flex relative">
+        <button class="bg-[#485C11] text-white py-3.5 rounded-full px-6.5 pr-7.75 font-bold text-[14px]/[140% tracking-[-2.5%]]">Learn More</button>
+        <img class="absolute right-5.5 top-5.5" src="./src/assets/imgs/↗.png" alt="">
+      </div>
+      <div class="flex md:hidden">
+        <button class="flex flex-col gap-1 md:hidden">
+          <span class="w-5 h-0.5 block bg-black"></span>
+          <span class="w-5 h-0.5 block bg-black"></span>
+          <span class="w-5 h-0.5 block bg-black"></span>
+        </button>
+      </div>
+    </nav>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
