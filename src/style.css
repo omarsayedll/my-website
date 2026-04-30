@@ -50,5 +50,7 @@
 
 @theme {
     --font-serif: "Crimson Text", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-    --font-sans: "DM Sans", sans-serif
+    --font-sans: "DM Sans", sans-serif;
+    --breakpoint-md: 800px;
+    --breakpoint-lg: 1280px;
 }
