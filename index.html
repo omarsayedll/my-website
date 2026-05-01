@@ -1,46 +1,156 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-  </head>
-  <body class="font-serif">
-        <nav class="flex justify-between items-center px-5 md:px-10 pt-4 pb-5.5 md:pb-18 rounded-3xl shadow-md md:rounded-none md:shadow-none font-sans">
-      <a class="text-[30px]/[120%] tracking-[-8%] " href="/index.html">Area</a>
-      <ul class="hidden md:flex gap-x-6.75 mt-2.5 px-6 py-5">
-        <li><a class="text-[14px]/[140%] tracking-[-2.5%] font-bold" href="#">Benefits</a></li>
-        <li><a class="text-[14px]/[140%] tracking-[-2.5%] font-bold" href="#">Specifications</a></li>
-        <li><a class="text-[14px]/[140%] tracking-[-2.5%] font-bold" href="#">How-to</a></li>
-        <li><a class="text-[14px]/[140%] tracking-[-2.5%] font-bold" href="#">Contact Us</a></li>
-      </ul>
-      <div class="hidden md:flex relative">
-        <button class="bg-[#485C11] text-white py-3.5 rounded-full px-6.5 pr-7.75 font-bold text-[14px]/[140% tracking-[-2.5%]]">Learn More</button>
-        <img class="absolute right-5.5 top-5.5" src="./src/assets/imgs/↗.png" alt="">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my-website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="font-serif">
+  <nav
+    class="flex justify-between items-center px-5 md:px-10 pt-4 pb-5.5 md:pb-18 rounded-3xl shadow-md md:rounded-none md:shadow-none font-sans">
+    <a class="text-[30px]/[120%] tracking-[-8%]" href="/index.html">Area</a>
+    <ul class="hidden md:flex gap-x-6.75 mt-2.5 px-6 py-5">
+      <li>
+        <a class="text-[14px]/[140%] tracking-[-2.5%] font-bold" href="#">Benefits</a>
+      </li>
+      <li>
+        <a class="text-[14px]/[140%] tracking-[-2.5%] font-bold" href="#">Specifications</a>
+      </li>
+      <li>
+        <a class="text-[14px]/[140%] tracking-[-2.5%] font-bold" href="#">How-to</a>
+      </li>
+      <li>
+        <a class="text-[14px]/[140%] tracking-[-2.5%] font-bold" href="#">Contact Us</a>
+      </li>
+    </ul>
+    <div class="hidden md:flex relative">
+      <button
+        class="bg-[#485C11] text-white py-3.5 rounded-full px-6.5 pr-7.75 font-bold text-[14px]/[140% tracking-[-2.5%]]">
+        Learn More
+      </button>
+      <img class="absolute right-5.5 top-5.5" src="./src/assets/imgs/↗.png" alt="" />
+    </div>
+    <div class="flex md:hidden">
+      <button class="flex flex-col gap-1 md:hidden">
+        <span class="w-5 h-0.5 block bg-black"></span>
+        <span class="w-5 h-0.5 block bg-black"></span>
+        <span class="w-5 h-0.5 block bg-black"></span>
+      </button>
+    </div>
+  </nav>
+  <header>
+    <section class="flex justify-center items-center flex-col">
+      <h1
+        class="text-[76px]/[85%] tracking-[-4.5%] text-center mt-10.5 mx-4 md:mt-0 md:text-[140px]/[80%] md:tracking-[-5%] md:mx-10 lg:text-[160px]/[85%] lg:tracking-[-%] lg:mx-10">
+        Browse <br class="lg:hidden" />
+        everything.
+      </h1>
+      <div class="w-full px-4 flex flex-col justify-center relative md:px-10">
+        <div class="bg-[#8E9C78] h-90.5 mt-30 md:mt-35 lg:mt-60 rounded-[30px]"></div>
+        <img class="absolute bottom-0 self-center md:hidden" src="./src/assets/imgs/iPhone.png" alt="" />
+        <img class="hidden md:inline absolute bottom-0 self-center" src="./src/assets/imgs/Ipad.png" alt="" />
+        <img class="hidden lg:inline absolute bottom-0 self-center" src="./src/assets/imgs/Ipad 2.png" alt="" />
       </div>
-      <div class="flex md:hidden">
-        <button class="flex flex-col gap-1 md:hidden">
-          <span class="w-5 h-0.5 block bg-black"></span>
-          <span class="w-5 h-0.5 block bg-black"></span>
-          <span class="w-5 h-0.5 block bg-black"></span>
-        </button>
-      </div>
-    </nav>
-    <header>
-      <section class="flex justify-center items-center flex-col">
-        <h1 class="text-[76px]/[85%] tracking-[-4.5%] text-center mt-10.5 mx-4 md:mt-0 md:text-[140px]/[80%] md:tracking-[-5%] md:mx-10 lg:text-[160px]/[85%] lg:tracking-[-%] lg:mx-10">Browse <br class="lg:hidden"> everything.</h1>
-        <div class="w-full px-4 flex flex-col justify-center relative md:px-10">
-          <div class="bg-[#8E9C78] h-90.5 mt-30 md:mt-35 lg:mt-60 rounded-[30px]"></div>
-          <img class="absolute bottom-0 self-center md:hidden" src="./src/assets/imgs/iPhone.png" alt="">
-          <img class="hidden md:inline absolute bottom-0 self-center " src="./src/assets/imgs/Ipad.png" alt="">
-          <img class="hidden lg:inline absolute bottom-0 self-center" src="./src/assets/imgs/Ipad 2.png" alt="">
+    </section>
+  </header>
+  <main>
+    <section class="font-sans pt-12.5 px-4 md:px-10">
+      <p class="text-[15px]/[140%] tracking-[-0.5%] text-[#6F6F6F]">
+        Trusted by:
+      </p>
+      <div class="mt-7.5 grid grid-cols-2 md:grid-cols-4 gap-x-10 gap-y-5 lg:grid-cols-6">
+        <div class="flex justify-center p-5">
+          <img class="" src="./src/assets/imgs/Logo.png" alt="" />
         </div>
-      </section>
-    </header>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+        <div class="flex justify-center p-5">
+          <img class="" src="./src/assets/imgs/Logo-1.png" alt="" />
+        </div>
+        <div class="flex justify-center p-5">
+          <img class="" src="./src/assets/imgs/Logo-2.png" alt="" />
+        </div>
+        <div class="flex justify-center p-5">
+          <img class="" src="./src/assets/imgs/Logo-3.png" alt="" />
+        </div>
+        <div class="hidden md:block lg:hidden"></div>
+        <div class="flex justify-center p-5">
+          <img class="" src="./src/assets/imgs/Logo-4.png" alt="" />
+        </div>
+        <div class="flex justify-center p-5">
+          <img class="" src="./src/assets/imgs/Logo-5.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="pt-20 px-4 md:px-10">
+      <div class="mb-12.5">
+        <h2
+          class="text-[#485C11] text-[10.5px]/[140%] tracking-[-3%] md:text-[11px] md:tracking-[-1%] lg:text-[12px] font-sans">
+          Benefits
+        </h2>
+        <p class="text-[50px]/[95%] tracking-[-3%] my-7.5 md:my-12.5 md:text-[54px]/[90%] lg:text-[60px]">
+          We’ve cracked <br class="md:hidden" />
+          the code.
+        </p>
+        <p class="text-[#6F6F6F] font-sans text-[15px]/[140%] tracking-[-0.5%]">
+          Area provides real insights, without the data
+          <br class="md:hidden" />
+          overload.
+        </p>
+      </div>
+      <div class="px-4 md:px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-15">
+        <div class="py-10 border-t border-[#E9E9E9]">
+          <img src="./src/assets/imgs/Vector.png" alt="" />
+          <p class="my-5 text-[18px]/[100%] tracking-[-3%]">
+            Amplify Insights
+          </p>
+          <p class="font-sans text-[15px]/[140%] tracking-[-0.5%] text-[#6F6F6F]">
+            Unlock data-driven decisions with comprehensive analytics,
+            revealing key opportunities for strategic regional growth.
+          </p>
+        </div>
+        <div class="py-10 border-t border-[#E9E9E9]">
+          <img src="./src/assets/imgs/Vector-1.png" alt="" />
+          <p class="my-5 text-[18px]/[100%] tracking-[-3%]">
+            Control Your Global Presence
+          </p>
+          <p class="font-sans text-[15px]/[140%] tracking-[-0.5%] text-[#6F6F6F]">
+            Manage and track satellite offices, ensuring consistent
+            performance and streamlined operations everywhere.
+          </p>
+        </div>
+        <div class="py-10 border-t border-[#E9E9E9]">
+          <img src="./src/assets/imgs/Vector-2.png" alt="" />
+          <p class="my-5 text-[18px]/[100%] tracking-[-3%]">
+            Remove Language Barriers
+          </p>
+          <p class="font-sans text-[15px]/[140%] tracking-[-0.5%] text-[#6F6F6F]">
+            Adapt to diverse markets with built-in localization for clear
+            communication and enhanced user experience.
+          </p>
+        </div>
+        <div class="py-10 border-t border-[#E9E9E9]">
+          <img src="./src/assets/imgs/Vector-3.png" alt="" />
+          <p class="my-5 text-[18px]/[100%] tracking-[-3%]">
+            Visualize Growth
+          </p>
+          <p class="font-sans text-[15px]/[140%] tracking-[-0.5%] text-[#6F6F6F]">
+            Generate precise, visually compelling reports that illustrate your
+            growth trajectories across all regions.
+          </p>
+        </div>
+      </div>
+      <img class="h-150 lg:h-155 object-cover rounded-[30px] mx-auto mb-25 md:mb-30"
+        src="./src/assets/imgs/Hero Image.png" alt="" />
+    </section>
+  </main>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>
