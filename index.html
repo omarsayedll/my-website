@@ -23,7 +23,9 @@
     <nav
       class="flex justify-between items-center px-5 md:px-10 pt-4 pb-5.5 md:pb-18 rounded-3xl shadow-md md:rounded-none md:shadow-none font-sans"
     >
-      <a class="text-[30px]/[120%] tracking-[-8%]" href="/index.html">Area</a>
+      <div class="w-[144.66px]">
+        <a class="text-[30px]/[120%] tracking-[-8%]" href="/index.html">Area</a>
+      </div>
       <ul class="hidden md:flex gap-x-6.75 mt-2.5 px-6 py-5">
         <li>
           <a class="text-[14px]/[140%] tracking-[-2.5%] font-bold" href="#"
@@ -377,7 +379,7 @@
                 </div>
               </td>
               <td
-                class="border-r border-t border-[#E9E9E9] font-sans py-8 min-w-59.5 px-7.5"
+                class="border-r border-t border-[#E9E9E9] font-sans py-8 min-w-59.5 pl-7.5 pr-1"
               >
                 <div
                   class="flex items-center gap-2 text-[14.5px]/[140%] tracking-[-3%] md:text-[15px]/[140%] md:tracking-[-1%] lg:text-[15.5px]/[140%]"
@@ -505,7 +507,7 @@
                 </div>
               </td>
               <td
-                class="border-r border-t border-[#E9E9E9] font-sans py-8 min-w-59.5 px-7.5"
+                class="border-r border-y border-[#E9E9E9] font-sans py-8 min-w-59.5 px-7.5"
               >
                 <div
                   class="flex items-center gap-2 text-[14.5px]/[140%] tracking-[-3%] md:text-[15px]/[140%] md:tracking-[-1%] lg:text-[15.5px]/[140%]"
@@ -515,7 +517,7 @@
                 </div>
               </td>
               <td
-                class="border-t border-[#E9E9E9] font-sans py-8 min-w-59.5 px-7.5"
+                class="border-y border-[#E9E9E9] font-sans py-8 min-w-59.5 px-7.5"
               >
                 <div
                   class="flex items-center gap-2 text-[14.5px]/[140%] tracking-[-3%] md:text-[15px]/[140%] md:tracking-[-1%] lg:text-[15.5px]/[140%]"
@@ -528,7 +530,9 @@
           </tbody>
         </table>
       </section>
-      <section class="flex flex-col lg:flex-row lg:justify-between">
+      <section
+        class="flex flex-col lg:flex-row lg:justify-between pb-25 md:pb-30"
+      >
         <div
           class="px-4 md:px-10 lg:pr-5 flex justify-center items-center shrink-0"
         >
@@ -538,12 +542,12 @@
             alt=""
           />
         </div>
-        <div>
+        <div class="mx-4">
           <div
-            class="px-4 pt-10 lg:pt-35 lg:pl-12.5 lg:mr-10 lg:pr-10 md:px-0 md:mx-10 lg:mx-0 mb-12.5 border-t border-[#E9E9E9]"
+            class="px-4 pt-10 lg:pt-35 lg:pl-12.5 lg:mr-10 lg:pr-10 md:px-0 md:mx-10 lg:mx-0 mb-10 border-t border-[#E9E9E9]"
           >
             <p
-              class="text-[32px]/[110%] tracking-[-4%] md:text-[40px] lg:text-[40px]/[105%]"
+              class="text-[32px]/[110%] tracking-[-4%] md:text-[40px] lg:text-[40px]/[105%] mb-12.5 lg:mb-0"
             >
               “I was skeptical, but Area has completely transformed the way I
               manage my business. The data visualizations are so clear and
@@ -552,7 +556,7 @@
             </p>
           </div>
           <div
-            class="px-4 lg:pl-12.5 lg:mr-10 lg:pr-10 md:px-0 md:mx-10 lg:mx-0 mb-12.5 flex items-center gap-2 lg:block"
+            class="px-4 lg:pl-12.5 lg:mr-10 lg:pr-10 md:px-0 md:mx-10 lg:mx-0 md:mb-12.5 flex items-center gap-2 lg:block"
           >
             <p class="font-sans text-[15px]/[140%] tracking-[-0.5%]">
               John Smith
@@ -561,6 +565,73 @@
               class="text-[#485C11] text-[10.5px]/[140%] tracking-[-3%] md:text-[11px] md:tracking-[-1%] font-sans"
             >
               Head of Data
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="border-t border-[#E9E9E9] md:mx-10">
+        <div
+          class="flex flex-col gap-y-10 items-center md:flex-row md:justify-between pt-20 mx-4 md:mx-0 mb-20"
+        >
+          <p
+            class="text-[48px]/[95%] tracking-[-3%] md:text-[54px]/[90%] lg:text-[60px]/[90%] mr-2.5 text-left"
+          >
+            Map Your Success
+          </p>
+          <button
+            class="bg-[#DFECC6] text-black py-3.5 rounded-full px-5.5 font-sans font-bold text-[14px]/[140% tracking-[-2.5%]]"
+          >
+            Discover More
+          </button>
+        </div>
+        <div class="overflow-x-auto flex px-4 md:px-0 gap-x-5 md:">
+          <div class="pt-15 border-t border-[#E9E9E9] min-w-60 flex-1">
+            <p
+              class="text-[64px]/[100%] tracking-[-4%] md:text-[80px] text-[#929292] font-sans"
+            >
+              01
+            </p>
+            <p class="text-[18px]/[100%] tracking-[-3%] mt-15 mb-5">
+              Get Started
+            </p>
+            <p
+              class="text-[15px]/[140%] tracking-[-0.5%] font-sans text-[#6F6F6F]"
+            >
+              With our intuitive setup, you’re up and running in
+              <br class="hidden lg:inline" />
+              minutes.
+            </p>
+          </div>
+          <div class="pt-15 border-t border-[#E9E9E9] min-w-60 flex-1">
+            <p
+              class="text-[64px]/[100%] tracking-[-4%] md:text-[80px] text-[#929292] font-sans"
+            >
+              02
+            </p>
+            <p class="text-[18px]/[100%] tracking-[-3%] mt-15 mb-5">
+              Customize and Configure
+            </p>
+            <p
+              class="text-[15px]/[140%] tracking-[-0.5%] font-sans text-[#6F6F6F]"
+            >
+              Adapt Area to your specific requirements and
+              <br class="hidden lg:inline" />
+              preferences.
+            </p>
+          </div>
+          <div class="pt-15 border-t border-[#E9E9E9] min-w-60 flex-1">
+            <p
+              class="text-[64px]/[100%] tracking-[-4%] md:text-[80px] text-[#929292] font-sans"
+            >
+              03
+            </p>
+            <p class="text-[18px]/[100%] tracking-[-3%] mt-15 mb-5">
+              Grow Your Business
+            </p>
+            <p
+              class="text-[15px]/[140%] tracking-[-0.5%] font-sans text-[#6F6F6F]"
+            >
+              Make informed decisions to exceed your goals.
             </p>
           </div>
         </div>
